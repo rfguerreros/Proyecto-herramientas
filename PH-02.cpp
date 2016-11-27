@@ -134,11 +134,11 @@ double Membrane::I_ext (double t)
 
   if((t >= 10.0 && t <= 30.0))
     {
-      i = 7.0;
+      i = 0.0;
     }
   else if (t >= 30 && t <= 100)
     {
-      i = 11.0;
+      i = 0.0;
     }
   else
     {
